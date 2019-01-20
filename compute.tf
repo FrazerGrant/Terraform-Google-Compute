@@ -4,7 +4,7 @@ resource "google_compute_instance" "default" {
         zone = "us-central1-c"
         boot_disk{
                 initialize_params {
-                image = "centos 7"
+                image = "centos-7"
                 }
         }
         network_interface {
